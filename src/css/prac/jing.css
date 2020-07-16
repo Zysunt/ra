@@ -1,0 +1,29 @@
+.layout {
+  width: 100%;
+  padding-bottom: 10vw;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+.layout .tit {
+  padding: 4vw;
+  font-size: 4.8vw;
+  margin-top: 2.5vw;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  border-bottom: 0.5vw solid #D7C8A7;
+}
+.layout .tit i {
+  color: #999;
+}
+.layout .hao {
+  letter-spacing: 0.5vw;
+  padding: 4vw;
+  box-sizing: border-box;
+}
+.layout .hao p {
+  margin: 0;
+  line-height: 7vw;
+  font-size: 4vw;
+  text-indent: 2em;
+}

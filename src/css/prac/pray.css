@@ -1,0 +1,64 @@
+.layout .fo {
+  position: relative;
+}
+.layout .fo img {
+  display: block;
+  width: 42.6vw;
+  height: 52.5vw;
+  margin: 10.8vw auto 0;
+}
+.layout .fo p {
+  width: 4vw;
+  font-size: 3.7vw;
+  position: absolute;
+  top: 0;
+  left: 12vw;
+  line-height: 4vw;
+}
+.layout .hao {
+  display: flex;
+  padding: 14vw 10vw 0;
+  justify-content: space-between;
+}
+.layout .hao div img {
+  width: 5.5vw;
+}
+.layout .hao div p {
+  font-size: 3.2vw;
+  margin-top: 2vw;
+  letter-spacing: 0.1vw;
+}
+.layout .hao .left {
+  text-align: right;
+}
+.layout .hao .fahao {
+  width: 39vw;
+  margin: 0;
+  font-size: 6.4vw;
+  line-height: 7vw;
+  font-weight: 600;
+  text-align: center;
+}
+.layout .muyu {
+  display: flex;
+  padding: 10vw 20vw;
+  justify-content: space-around;
+}
+.layout .muyu div {
+  text-align: center;
+}
+.layout .muyu div p {
+  font-size: 6.4vw;
+  font-weight: 400;
+  margin: 0;
+}
+.layout .muyu div span {
+  font-size: 3.2vw;
+  color: #666;
+  letter-spacing: 0.5vw;
+}
+.layout .muyu img {
+  width: 17.9vw;
+  height: 13.4vw;
+  display: block;
+}

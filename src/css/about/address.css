@@ -1,0 +1,80 @@
+.layout {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.layout .list {
+  margin-bottom: 3vw;
+}
+.layout .list ul {
+  border-top: 0.5vw solid #D7C8A7;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+.layout .list ul li {
+  padding: 4vw;
+  border-bottom: 0.2vw solid #f5f5f5;
+}
+.layout .list ul li p:nth-of-type(1) {
+  font-size: 3.8vw;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3.4vw;
+}
+.layout .list ul li p:nth-of-type(2) {
+  color: #999;
+}
+.layout .list .def {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 4vw;
+  border-bottom: 0.5vw solid #D7C8A7;
+}
+.layout .list .def div:nth-of-type(1) {
+  display: flex;
+}
+.layout .list .def div:nth-of-type(1) div {
+  width: 4.5vw;
+  height: 4.5vw;
+  margin: 0;
+  padding: 0;
+  border: 0.2vw solid #ccc;
+  border-radius: 50%;
+  position: relative;
+  margin-top: 1vw;
+  margin-right: 4vw;
+}
+.layout .list .def div:nth-of-type(1) div i {
+  color: #A0261B;
+  font-size: 4.7vw;
+  position: absolute;
+  top: -0.2vw;
+  left: -0.3vw;
+}
+.layout .list .def div:nth-of-type(1) p {
+  color: #999;
+  margin-left: 3.4vw;
+}
+.layout .list .def div:nth-of-type(2) a {
+  color: #ccc;
+}
+.layout .list .def div:nth-of-type(2) a:nth-of-type(1) {
+  margin-right: 5vw;
+}
+.layout .list button {
+  background-color: #A0261B;
+  border: 0;
+  width: 80vw;
+  height: 10.6vw;
+  text-align: center;
+  line-height: 10.6vw;
+  color: #D7C8A7;
+  border-radius: 1.2vw;
+  position: absolute;
+  left: 50%;
+  bottom: 23vw;
+  transform: translateX(-50%);
+}

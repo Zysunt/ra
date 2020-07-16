@@ -1,0 +1,151 @@
+body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #f5f5f5;
+}
+body .content {
+  background-color: #fff;
+}
+body .content .time {
+  display: flex;
+  font-size: 4vw;
+  padding: 4vw;
+  justify-content: space-between;
+}
+body .content .time .left {
+  color: #ccc;
+}
+body .content .time .right span {
+  color: #666;
+}
+body .content .time .right i {
+  color: #ccc;
+  margin-left: 5.4vw;
+}
+body .content ul {
+  list-style: none;
+  padding-left: 4vw;
+  margin: 0;
+}
+body .content ul li {
+  display: flex;
+  border-top: 0.3vw solid #f5f5f5;
+  border-bottom: 0.3vw solid #f5f5f5;
+  padding: 4vw 4vw 4vw 0;
+}
+body .content ul li img {
+  width: 20.2vw;
+  height: 20.2vw;
+  display: block;
+  border-radius: 2vw;
+  margin: 0 3vw 0 0;
+}
+body .content ul li .right {
+  font-size: 4vw;
+  margin-top: 4.6vw;
+  width: 70vw;
+}
+body .content ul li .right p {
+  margin-bottom: 2vw;
+}
+body .content ul li .right .price {
+  color: #666;
+  float: left;
+}
+body .content ul li .right .num {
+  color: #ccc;
+  float: right;
+  font-size: 4vw;
+}
+body .content .money {
+  text-align: right;
+  padding: 4vw;
+  color: #ccc;
+  font-size: 4vw;
+}
+body .content .money span {
+  font-size: 4.2vw;
+  color: #A0261B;
+}
+body .btn {
+  padding: 4vw;
+  background-color: #fff;
+  overflow: hidden;
+  border-top: 0.3vw solid #ccc;
+}
+body .btn button {
+  border: 0;
+  border: 0.3vw solid #ccc;
+  border-radius: 8vw;
+  padding: 2vw 3vw;
+  float: right;
+  background-color: #fff;
+  font-size: 4vw;
+}
+body .btn button:nth-of-type(2) {
+  margin-right: 2vw;
+}
+body .markone {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}
+body .markone div {
+  width: 81.4vw;
+  height: 41.2vw;
+  border-radius: 2vw;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+body .markone div p {
+  height: 26.6vw;
+  text-align: center;
+  line-height: 26.6vw;
+  border-bottom: 0.3vw solid #f5f5f5;
+  font-size: 4.2vw;
+  margin: 0;
+}
+body .markone div button {
+  border: 0;
+  background-color: #fff;
+  width: 50%;
+  height: 14.3vw;
+  color: #ccc;
+  padding: 0;
+  border-radius: 0 0 0 2vw;
+}
+body .markone div button:nth-of-type(2) {
+  border-radius: 0 0 2vw 0;
+  color: #D7C8A7;
+  border-left: 0.3vw solid #f5f5f5;
+}
+body .marktwo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}
+body .marktwo p {
+  width: 49vw;
+  height: 21.4vw;
+  border-radius: 2vw;
+  line-height: 21.4vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  font-size: 4.2vw;
+  text-align: center;
+}

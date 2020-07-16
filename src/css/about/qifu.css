@@ -1,0 +1,119 @@
+.layout {
+  width: 100%;
+  height: 100%;
+}
+.layout .content {
+  width: 100%;
+  height: 40%;
+  background-color: #D7C8A7;
+  position: relative;
+  border-top: 1px solid transparent;
+}
+.layout .content .title {
+  width: 75%;
+  height: 0.2vw;
+  background-color: #A0261B;
+  position: relative;
+  margin: 7vw auto;
+}
+.layout .content .title p {
+  width: 76%;
+  position: absolute;
+  background-color: #D7C8A7;
+  padding: 0 4vw;
+  top: -4vw;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 4.8vw;
+  color: #A0261B;
+  letter-spacing: 0.5vw;
+}
+.layout .content form {
+  width: 90%;
+  height: 210%;
+  border: 0.5vw solid #D7C8A7;
+  border-radius: 4vw;
+  position: absolute;
+  top: 15vw;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
+}
+.layout .content form .user {
+  border-bottom: 0.5vw solid #D7C8A7;
+  padding: 4vw;
+  font-size: 4vw;
+  display: flex;
+  justify-content: space-between;
+}
+.layout .content form .user input {
+  border: 0;
+  text-align: right;
+  outline: none;
+}
+.layout .content form .user input::-webkit-input-placeholder {
+  color: #ccc;
+}
+.layout .content form .left {
+  display: flex;
+}
+.layout .content form .left .iconbig {
+  width: 4.5vw;
+  height: 4.5vw;
+  border-radius: 50%;
+  border: 0.5vw solid #ccc;
+  position: relative;
+  margin: 1vw 2vw 0 3vw;
+}
+.layout .content form .left .iconbig i {
+  color: #D7C8A7;
+  position: absolute;
+  top: -0.5vw;
+  left: -0.5vw;
+  font-size: 4.5vw;
+}
+.layout .content form .qiyuan {
+  padding: 4.5vw 4vw 0;
+}
+.layout .content form .qiyuan .tit {
+  border-bottom: 0.5vw solid #D7C8A7;
+  margin: 0;
+  padding-bottom: 3vw;
+  font-size: 4vw;
+}
+.layout .content form .qiyuan ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.layout .content form .qiyuan ul li {
+  width: 25%;
+  padding: 2.5vw 0;
+  border-bottom: 0.5vw solid #D7C8A7;
+}
+.layout .content form .qiyuan ul li p {
+  height: 100%;
+  text-align: center;
+  letter-spacing: 0.5vw;
+  margin: 0;
+  padding: 2vw 0;
+  font-size: 4vw;
+}
+.layout .content form .qiyuan ul li .active {
+  background-color: #D7C8A7;
+  border-radius: 2vw;
+  color: #A0261B;
+}
+.layout .content form .btn {
+  width: 80vw;
+  height: 10.6vw;
+  margin: 11vw 4vw;
+  text-align: center;
+  border: 0;
+  background-color: #A0261B;
+  color: #D7C8A7;
+  border-radius: 1vw;
+}

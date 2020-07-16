@@ -1,0 +1,83 @@
+.layout {
+  background-color: #fff;
+  box-sizing: border-box;
+  padding-bottom: 13.4vw;
+  height: 100%;
+}
+.layout .bless {
+  box-sizing: border-box;
+  width: 95%;
+  height: 13.4vw;
+  line-height: 13.4vw;
+  display: flex;
+  justify-content: space-between;
+  font-size: 4.8vw;
+  font-weight: 600;
+  margin-left: 4vw;
+  border-bottom: 0.5vw solid #BFA76B;
+}
+.layout .bless p {
+  margin: 3vw 4vw;
+}
+.layout .bless p span {
+  color: #A0261B;
+  font-size: 4.2vw;
+}
+.layout .content {
+  padding: 3vw 5vw 5vw 4vw;
+  border-bottom: 0.5vw solid #BFA76B;
+  font-size: 3.7vw;
+  line-height: 5vw;
+}
+.layout .detail {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+}
+.layout .detail a {
+  display: block;
+  padding: 4vw 7vw;
+  font-size: 4.5vw;
+  font-weight: 600;
+  color: #585858;
+}
+.layout .detail a:hover {
+  border-bottom: 1vw solid #BFA76B;
+}
+.layout .detail .active {
+  border-bottom: 1vw solid #BFA76B;
+}
+.layout .huan {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 13.4vw;
+  display: flex;
+}
+.layout .huan .xin {
+  box-sizing: border-box;
+  height: 13.4vw;
+  width: 20%;
+  background-color: #F3EEE4;
+  color: #A0261B;
+  text-align: center;
+  padding: 2vw 0;
+}
+.layout .huan .xin i {
+  font-size: 5.5vw;
+}
+.layout .huan .xin p {
+  font-size: 3.2vw;
+  font-weight: 600;
+}
+.layout .huan button {
+  border: 0;
+  padding: 0;
+  width: 80%;
+  text-align: center;
+  background-color: #A0261B;
+  color: #BFA76B;
+  line-height: 13.4vw;
+  font-size: 4.8vw;
+  letter-spacing: 0.5vw;
+}

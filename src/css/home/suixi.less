@@ -1,0 +1,130 @@
+.layout{
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    font-size: 4.2vw;
+    box-sizing: border-box;
+    input{
+        border: 0;
+        outline: none;
+        background-color: #f5f5f5;
+        height: 8.5vw;
+    }
+    input::-webkit-input-placeholder{
+        color: #a5a5a5;
+    }
+    textarea::-webkit-input-placeholder{
+        color: black;
+    }
+    .tit{
+        border-top: 0.5vw solid #d7c8a7;
+        p{
+            padding: 5vw 4vw;
+            color: #a5a5a5;
+            margin: 0;
+        }
+        ul{
+            padding: 0 4vw;
+            margin: 0;
+            list-style: none;
+            overflow: hidden;
+            li{
+                float: left;
+                width: 21.3vw;
+                height: 10.4vw;
+                border: 0.5vw solid #d7c8a7;
+                border-radius: 1.5vw;
+                margin-right: 4vw;
+                line-height: 10.4vw;
+                text-align: center;
+                color:black;
+                background-color: #f5f5f5;
+            }
+            .active{
+                background-color: #A0261B;
+            }
+        }
+    }
+    form{
+        padding: 5vw 4vw;
+        .moneybox{
+            display: flex;
+            justify-content: space-between;
+            line-height: 10.4vw;
+            color: #a5a5a5;
+            .money{
+                width: 64vw;
+                height: 10.4vw;
+                border: 0.5vw solid #d7c8a7;
+                border-radius: 1.5vw;
+                background-color: #f5f5f5;
+                padding-left: 3vw; 
+                input{
+                    text-align: right;
+                }
+            }
+            .chose{
+                width: 5vw;
+                height: 5vw;
+                margin-top: 2.5vw;
+            }
+        }
+        .info{
+            width: 92vw;
+            height: 10.4vw;
+            border: 0.5vw solid #d7c8a7;
+            border-radius: 1.5vw;
+            padding-left: 3vw;
+            margin-top: 5vw;
+        }
+        .liuyan{
+            margin-top: 5vw;
+            p{
+                color: #a5a5a5;
+            }
+            textarea{
+                border: 0;
+                width: 92vw;
+                height: 29.3vw;
+                padding: 3vw;
+                border: 0.5vw solid #d7c8a7;
+                border-radius: 1.5vw;
+                padding-left: 3vw;
+                font-size: 4vw;
+                outline: none;
+            }
+        }
+        .btn{
+            width: 80vw;
+            height: 10.6vw;
+            margin: 10vw 6vw 0;
+            background-color: #A0261B;
+            color:#CAA487;
+            border: 0;
+            border-radius: 2vw;
+            font-size: 4.2vw
+        }
+    }
+    .marktwo{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,.2); 
+        z-index: 10;
+        p{
+            width: 49vw;
+            height: 21.4vw;
+            border-radius: 2vw;
+            line-height: 21.4vw;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            background-color: #fff;
+            font-size: 4.2vw;
+            text-align: center;
+        }       
+    }
+}

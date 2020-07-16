@@ -1,0 +1,17 @@
+.detail {
+  background-color: #fff;
+  padding: 4vw 4vw 13.4vw;
+  border-top: 0.5vw solid #BFA76B;
+}
+.detail img {
+  width: 100%;
+  display: block;
+}
+.detail p {
+  margin: 4vw 0;
+  line-height: 7vw;
+  font-size: 4vw;
+  text-indent: 2em;
+  color: black;
+  word-break: break-all;
+}

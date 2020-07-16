@@ -1,0 +1,56 @@
+.layout {
+  width: 100%;
+  box-sizing: border-box;
+}
+.layout .tit {
+  padding: 4vw;
+  font-size: 4.8vw;
+  margin-top: 2.5vw;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  border-bottom: 0.5vw solid #D7C8A7;
+}
+.layout .tit i {
+  color: #999;
+}
+.layout .cont {
+  padding: 6vw;
+  box-sizing: border-box;
+}
+.layout .cont p {
+  color: #ccc;
+  letter-spacing: 2.8vw;
+  font-size: 4vw;
+  padding: 0;
+}
+.layout .cont p span:nth-of-type(5) {
+  font-size: 6.4vw;
+  color: black;
+}
+.layout .cont div {
+  position: relative;
+  width: 66.6vw;
+  height: 66.6vw;
+  margin: 5vw auto;
+  font-size: 53.3vw;
+  font-weight: 500;
+  color: #E6E6E6;
+  text-align: center;
+  line-height: 60vw;
+}
+.layout .cont div canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 66.6vw;
+  height: 66.6vw;
+}
+.layout .icon {
+  font-size: 8vw;
+  color: #D7C8A7;
+  padding: 0 6vw;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+}

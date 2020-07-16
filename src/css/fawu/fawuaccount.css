@@ -1,0 +1,170 @@
+.layout {
+  box-sizing: border-box;
+  padding-bottom: 13.4vw;
+}
+.layout .address {
+  border-top: 0.5vw solid #BFA76B;
+  border-bottom: 1vw solid #BFA76B;
+  padding: 4vw;
+  display: flex;
+  background-color: #fff;
+}
+.layout .address img {
+  width: 5.2vw;
+  height: 6vw;
+  margin-top: 1vw;
+}
+.layout .address .info {
+  margin-left: 4vw;
+  width: 75%;
+}
+.layout .address .info p:nth-of-type(1) {
+  margin-bottom: 2vw;
+  font-size: 4vw;
+}
+.layout .address .info p:nth-of-type(1) span:nth-of-type(1) {
+  margin-right: 5.5vw;
+}
+.layout .address .info p:nth-of-type(2) {
+  font-size: 3.2vw;
+  color: #666;
+}
+.layout .address i {
+  font-size: 4.5vw;
+  color: #666;
+  margin: 7vw 0 0 9vw;
+}
+.layout .yun {
+  border-bottom: 0.5vw solid #BFA76B;
+  padding: 4vw;
+  display: flex;
+  justify-content: space-between;
+  font-size: 4vw;
+  background-color: #fff;
+}
+.layout .yun .fangshi {
+  display: flex;
+}
+.layout .yun .fangshi div {
+  margin-right: 3vw;
+}
+.layout .goods {
+  background-color: #fff;
+  display: flex;
+  border-bottom: 0.5vw solid #BFA76B;
+  padding: 4vw;
+}
+.layout .goods .iconbig {
+  width: 5.5vw;
+  height: 5.5vw;
+  border: 0.5vw solid #ccc;
+  border-radius: 50%;
+  position: relative;
+  margin: 7vw 0;
+}
+.layout .goods .iconbig i {
+  color: #A0261B;
+  font-size: 6vw;
+  position: absolute;
+  top: -0.5vw;
+  left: -0.5vw;
+}
+.layout .goods img {
+  width: 20vw;
+  height: 20vw;
+  display: block;
+  border-radius: 1vw;
+  margin: 0 4vw;
+}
+.layout .goods .right {
+  width: 60%;
+  font-size: 4vw;
+  margin-top: 3vw;
+}
+.layout .goods .right .price {
+  color: #666;
+  float: left;
+}
+.layout .goods .right .num {
+  float: right;
+  display: flex;
+  text-align: center;
+}
+.layout .goods .right .num span {
+  display: block;
+  width: 6.5vw;
+  height: 6.5vw;
+  line-height: 6.5vw;
+  border-radius: 1vw;
+  background-color: #BFA76B;
+  color: #A0261B;
+}
+.layout .goods .right .num input {
+  text-align: center;
+  width: 8vw;
+  border: 0;
+}
+.layout .xi {
+  padding: 4vw;
+  background-color: #fff;
+  font-size: 4vw;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.5vw solid #BFA76B;
+}
+.layout .content {
+  background-color: #fff;
+  border-bottom: 0.5vw solid #BFA76B;
+  padding: 4vw 8vw 3vw 4vw;
+  margin-bottom: 2vw;
+}
+.layout .content textarea {
+  width: 100%;
+  height: 25vw;
+  outline: none;
+  border: 0;
+  resize: none;
+  font-size: 4vw;
+  line-height: 4.5vw;
+  letter-spacing: 0.5vw;
+}
+.layout .content input {
+  width: 5vw;
+  height: 5vw;
+  border: 0.5vw solid #f5f5f5;
+  border-radius: 1vw;
+  background-color: #f5f5f5;
+  vertical-align: bottom;
+}
+.layout .content span {
+  color: #ccc;
+}
+.layout .dui {
+  position: fixed;
+  left: 0;
+  bottom: 13.4vw;
+  width: 100%;
+  height: 13.4vw;
+  border-top: 0.5vw solid #BFA76B;
+  display: flex;
+  z-index: 2;
+  background-color: #fff;
+  line-height: 13.4vw;
+  text-indent: 1em;
+}
+.layout .dui .fen {
+  width: 60%;
+  height: 100%;
+  font-size: 4vw;
+}
+.layout .dui .fen span {
+  font-size: 4vw;
+  color: #A0261B;
+  padding-right: 5vw;
+}
+.layout .dui button {
+  width: 40%;
+  background-color: #A0261B;
+  border: 0;
+  color: #BFA76B;
+}

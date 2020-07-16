@@ -1,0 +1,79 @@
+.content {
+  background-color: #fff;
+}
+.content .time {
+  display: flex;
+  font-size: 4vw;
+  padding: 4vw;
+  justify-content: space-between;
+}
+.content .time .left {
+  color: #ccc;
+}
+.content .time .right span {
+  color: #666;
+}
+.content .time .right i {
+  color: #ccc;
+  margin-left: 5.4vw;
+}
+.content ul {
+  list-style: none;
+  padding-left: 4vw;
+  margin: 0;
+}
+.content ul li {
+  display: flex;
+  border-top: 0.3vw solid #f5f5f5;
+  border-bottom: 0.3vw solid #f5f5f5;
+  padding: 4vw 4vw 4vw 0;
+}
+.content ul li img {
+  width: 20.2vw;
+  height: 20.2vw;
+  display: block;
+  border-radius: 2vw;
+  margin: 0 3vw 0 0;
+}
+.content ul li .right {
+  font-size: 4vw;
+  margin-top: 4.6vw;
+  width: 70vw;
+}
+.content ul li .right p {
+  margin-bottom: 2vw;
+}
+.content ul li .right .price {
+  color: #666;
+  float: left;
+}
+.content ul li .right .num {
+  color: #ccc;
+  float: right;
+  font-size: 4vw;
+}
+.content .money {
+  text-align: right;
+  padding: 4vw;
+  color: #ccc;
+  font-size: 4vw;
+}
+.content .money span {
+  font-size: 4.2vw;
+  color: #A0261B;
+}
+.btn {
+  padding: 4vw;
+  background-color: #fff;
+  overflow: hidden;
+  border-top: 0.3vw solid #ccc;
+}
+.btn button {
+  border: 0;
+  border: 0.3vw solid #ccc;
+  border-radius: 8vw;
+  padding: 2vw 3vw;
+  float: right;
+  background-color: #fff;
+  font-size: 4vw;
+}

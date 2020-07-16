@@ -1,0 +1,35 @@
+.layout {
+  background-color: #fff;
+  border-top: 0.5vw solid #BFA76B;
+}
+.layout ul {
+  margin: 0;
+  list-style: none;
+  padding: 0 0 15vw 4vw;
+}
+.layout ul li {
+  padding: 4vw 0;
+  border-bottom: 0.4vw solid #BFA76B;
+  display: flex;
+}
+.layout ul li img {
+  width: 10.2vw;
+  height: 10.2vw;
+  display: block;
+  border-radius: 50%;
+}
+.layout ul li div {
+  margin-left: 2vw;
+}
+.layout ul li div p:nth-of-type(1) {
+  margin-bottom: 2vw;
+}
+.layout ul li div p:nth-of-type(1) span:nth-of-type(1) {
+  color: #BFA76B;
+}
+.layout ul li div p:nth-of-type(1) span:nth-of-type(2) {
+  padding: 0 4vw;
+}
+.layout ul li div p:nth-of-type(2) {
+  padding: 0 4vw 0 0;
+}
